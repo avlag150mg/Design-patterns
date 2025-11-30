@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Домашня практика</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="title">Вітаємо, Guest!</h1>
+  <p id="subtitle">Будь ласка, зареєструйтесь</p>
+
+  <button id="langBtn">EN</button>
+  <span class="message hidden" id="langMessage"></span>
+
+  <form id="registerForm">
+    <label id="loginLabel">Логін:
+      <input type="text" id="login" />
+    </label>
+    <label id="emailLabel">Email:
+      <input type="email" id="email" />
+    </label>
+    <label id="passwordLabel">Пароль:
+      <input type="password" id="password" />
+    </label>
+    <label id="rememberLabel">
+      <input type="checkbox" id="rememberMe" /> Запам'ятати мене
+    </label>
+    <button type="submit" id="registerBtn">Зареєструватися</button>
+  </form>
+
+  <button id="clearBtn">Очистити всі дані</button>
+
+  <span class="message hidden" id="welcomeMessage"></span>
+
+  <script src="script.js"></script>
+</body>
+</html>
